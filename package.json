@@ -1,0 +1,15 @@
+{
+  "name": "atom-zorn-light-syntax",
+  "theme": "syntax",
+  "version": "1.4.0",
+  "description": "Zorn theme based on Atom One light syntax theme",
+  "keywords": [
+    "light",
+    "syntax"
+  ],
+  "repository": "https://github.com/zorn-v/atom-zorn-light-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.40.0"
+  }
+}
