@@ -1,0 +1,23 @@
+.syntax--source.syntax--css {
+
+  // highlight properties/values if they are supported
+  .syntax--property-name,
+  .syntax--property-value {
+    color: @mono-2;
+    &.syntax--support {
+      color: @mono-1;
+    }
+  }
+  .syntax--property-name {
+    font-weight: bold;
+  }
+  .syntax--constant.syntax--numeric, .syntax--keyword.syntax--other.syntax--unit {
+    color: #CA5197;
+  }
+  .syntax--constant.syntax--property-value {
+    color: #5D70BF;
+  }
+  .syntax--constant.syntax--color, .syntax--rgb-value {
+    color: #B14646;
+  }
+}

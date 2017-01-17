@@ -1,13 +1,11 @@
-
 // Editor styles (background, gutter, guides)
 
-atom-text-editor, // <- remove when Shadow DOM can't be disabled
-:host {
+atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
   .bracket-matcher .region {
-      border: 1px solid #526fff;
+    border: 1px solid #526fff;
   }
 
   .line.cursor-line {
@@ -59,7 +57,6 @@ atom-text-editor, // <- remove when Shadow DOM can't be disabled
   }
 
   .gutter {
-
     .line-number {
       color: @syntax-gutter-text-color;
       -webkit-font-smoothing: antialiased;
