@@ -1,7 +1,7 @@
 {
-  "name": "atom-zorn-light-syntax",
+  "name": "zorn-light-syntax",
   "theme": "syntax",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "description": "Zorn theme based on Atom One light syntax theme",
   "keywords": [
     "light",
